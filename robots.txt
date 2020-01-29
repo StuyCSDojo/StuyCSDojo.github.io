@@ -1,0 +1,3 @@
+# don't index our photos
+User-agent: *
+Disallow: /members/
