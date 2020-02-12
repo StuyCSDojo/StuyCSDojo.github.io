@@ -9,6 +9,11 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <title>About</title>
     <style>
+      .mdl-card {
+        width: auto;
+        align-items: left;
+        text-align: left;
+      }
     </style>
   </head>
   <header class="mdl-layout__header">
@@ -22,53 +27,81 @@
       </nav>
     </div>
   </header>
-  <h1>About</h1>
-  <h4>Room: 307</h4>
+  <div class="mdl-card">
+      <div class = 'mdl-card__supporting-text mdl-card--border'>
+        <h1 style = "color: black">About</h1>
+        <h4>Room: 307</h4>
   <h4>Time: Mondays - Thursdays, immediately after 10th period - 5:00pm</h4>
-  <h3>What is the dojo?</h3>
+  </div>
+</div>
+<div class="mdl-card">
+  <div class="mdl-card__title ">
+    <h3 class ="mdl-card__title-text">What is the dojo?</h3>
+  </div>
+  <div class = 'mdl-card--border mdl-card__supporting-text'>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h3>Rules</h3>
-
-  <ol start = 0 class="mdl-list">
-    <li class="mdl-list__item">All lists must be 0-indexed.</li>
-    <li class="mdl-list__item">No food or drink in the dojo (H20 okay).</li>
-    <li class="mdl-list__item">Be respectful to your peers.</li>
-    <li class="mdl-list__item">Clean up after yourself.</li>
-    <li class="mdl-list__item">Don't make excessively loud noises.</li>
-    <li class="mdl-list__item">Avoid using illegal internet (Facebook/Messenger).</li>
-    <li class="mdl-list__item">Keep the aisles clear of backpacks.</li>
-    <li class="mdl-list__item">Lock your workstation when not in use (CTRL + ALT + L).</li>
+  </div>
+  </div>
+  <div class="mdl-card">
+    <div class="mdl-card__title">
+      <h3 class ="mdl-card__title-text">Rules</h3>
+    </div>
+    <div class = 'mdl-card__supporting-text mdl-card--border'>
+  <ol start = 0>
+    <li>All lists must be 0-indexed.</li>
+    <li>No food or drink in the dojo (H20 okay).</li>
+    <li>Be respectful to your peers.</li>
+    <li>Clean up after yourself.</li>
+    <li>Don't make excessively loud noises.</li>
+    <li>Avoid using illegal internet (Facebook/Messenger).</li>
+    <li>Keep the aisles clear of backpacks.</li>
+    <li>Lock your workstation when not in use (CTRL + ALT + L).</li>
   </ol>
-
-  <h3>Sensei and Senpai</h3>
-  <img src = "sensei.jpg"/>
+</div>
+</div>
+  <div class="mdl-card">
+  <div class="mdl-card__title">
+    <h3 class ="mdl-card__title-text">Sensai and Senpai</h3>
+  </div>
+  <img src = "senpai.png"/>
+  <div class = 'mdl-card__supporting-text mdl-card--border'>
   <p>From left to right: ...</p>
-  <h4>Sensei: Brian Moses, Emma Choi, Greg Zborovsky, and William Cao</h4>
-  <h4>Senpai</h4>
-  <div class="mdl-grid">
+  <h6>Sensei: Brian Moses, Emma Choi, Greg Zborovsky, and William Cao</h6>
+  <h6>Senpai</h6>
   <ul>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
-    <li class="mdl-list__item">Lorem Ipsum</li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
+    <li><p>Lorem Ipsum</p></li>
   </ul>
 </div>
-  <h3>Contact Us</h2>
-  <p>Brian Moses: <a href = 'mailto:bmoses00@stuy.edu'>bmoses00@stuy.edu</a></p>
-  <p>Emma Choi: <a href = 'mailto:ychoi@stuy.edu'>ychoi@stuy.edu</a></p>
-  <p>Greg Zborovsky: <a href = 'mailto:gzborovsky00@stuy.edu'>gzborovsky00@stuy.edu</a></p>
-  <p>William Cao: <a href = 'mailto:wcao00@stuy.edu'>wcao00@stuy.edu</a></p>
-  <h4>Website courtesy of: </h4>
+</div>
+<div class="mdl-card">
+  <div class="mdl-card__title">
+    <h3 class ="mdl-card__title-text">Contact Us</h3>
+  </div>
+  <div class = 'mdl-card__supporting-text mdl-card--border'>
+    <p>Brian Moses: <a href = 'mailto:bmoses00@stuy.edu'>bmoses00@stuy.edu</a></p>
+    <p>Emma Choi: <a href = 'mailto:ychoi@stuy.edu'>ychoi@stuy.edu</a></p>
+    <p>Greg Zborovsky: <a href = 'mailto:gzborovsky00@stuy.edu'>gzborovsky00@stuy.edu</a></p>
+    <p>William Cao: <a href = 'mailto:wcao00@stuy.edu'>wcao00@stuy.edu</a></p>
+</div>
+</div>
+<div class="mdl-card">
+  <div class="mdl-card__title">
+    <h3 class ="mdl-card__title-text">Website courtesy of:</h3>
+  </div>
+</div>
 </html>
