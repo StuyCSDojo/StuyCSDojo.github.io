@@ -21,11 +21,9 @@ for file_name in photo_names:
     if file_name.endswith(".jpeg"):
         # Ignore directories, extraneous files
         photo_html += f"""
-        <div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col" style="background: url('./static/photos/{file_name}') center / cover; width: 256px; height: 256px;">
-          <div class="mdl-card__title mdl-card--expand"></div>
-          <div class="mdl-card__actions" style="height: 52px;padding: 16px;background: rgba(255, 255, 255, 0.8);margin-top:150px">
-            <span class="demo-card-image__filename" style="color: #000; font-size: 14px; font-weight: 500;">{extract_name(file_name)}</span>
-          </div>
+        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/{file_name}') center / cover;"></div>
+          <div class="mdl-card__actions mdl-card--border">{extract_name(file_name)}</div>
         </div>
         """
 
