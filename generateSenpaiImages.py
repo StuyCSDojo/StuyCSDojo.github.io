@@ -1,7 +1,8 @@
 import os
 
 aboutHTML = open("./about.html").read()
-anchor = "<!-- SENPAI IMAGE START -->"
+anchor_start = "<!-- SENPAI IMAGE START -->"
+anchor_end = "<!-- SENPAI IMAGE END -->"
 
 
 def extract_name(filename: str) -> str:
@@ -35,8 +36,12 @@ photo_html = f"""
 {photo_html}
 </div>
 """
+# Remove old photos if any
+index_to_insert = aboutHTML.index(anchor_start) + len(anchor_start)
+index_to_end = aboutHTML.index(anchor_end)
+aboutHTML = aboutHTML[:index_to_insert] + aboutHTML[index_to_end:]
+
 # Insert the html
-index_to_insert = aboutHTML.index(anchor) + len(anchor) + 2
 aboutHTML = aboutHTML[:index_to_insert] + photo_html + aboutHTML[index_to_insert:]
 
 print(aboutHTML)

@@ -3,9 +3,8 @@
 ## To set up
 1. Put all the senpai photo inside of ./static/photos
 2. Make sure all the photo ends with "\<first> \<last>.jpeg".
-3. Please make sure you remove any exif tags. Use image magick and run ```convert -strip <source> <destination>```
-4. Delete the existing photo code in "about.html". Delete the lines between "<!-- SENPAI IMAGE START --\>" and "<!-- SENPAI IMAGE END --\>". Do NOT delete the comments. 
-5. Run ```$ python3 generateSenpaiImages.py```
+3. Please make sure you remove any exif tags. Use image magick and run ```convert -strip <source> <destination>``` 
+4. Run ```$ python3 generateSenpaiImages.py```
 
 * To make the website load faster, you can compress the image more
 
