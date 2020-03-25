@@ -19,259 +19,267 @@
   height: 100%;
 }
 </style>
-
-<!-- Navbar -->
-<header class="mdl-layout__header">
-  <div class="mdl-layout__header-row">
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <!-- Navigation Bar -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">csDojo</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl">
     <span class="mdl-layout-title">csDojo</span>
-    <div class="mdl-layout-spacer"></div>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="index.html">Home</a>
       <a class="mdl-navigation__link" href="about.html">About</a>
       <a class="mdl-navigation__link" href="resources.html">Resources</a>
     </nav>
   </div>
-</header>
 
-<!-- Page content -->
-<div class = "mdl-grid">
-  <div class = "mdl-cell mdl-cell--12-col">
-    <h1>Welcome to CSDojo Resources!</h1>
-  </div>
+  <!-- Page content -->
+  <div class = "mdl-layout__content mdl-grid">
+    <div class = "mdl-cell mdl-cell--12-col">
+      <h1>Welcome to CSDojo Resources!</h1>
+    </div>
 
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Racket</h2></div>
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Racket</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-          </li>
-        </ul>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Netlogo</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/">
+                  Netlogo User Manual
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Includes:
+                  <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/tutorial1.html">3-part tutorial</a>,
+                  <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/interface.html">interface guide</a>, and
+                  <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/programming.html">programming guide</a>
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/dictionary.html">
+                  Netlogo Dictionary
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Dictionary of Netlogo primitives
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>HTML & CSS</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.w3schools.com/html/default.asp">W3Schools HTML Tutorials</a>
+                <span class = "mdl-list__item-text-body">
+                  Straightforward code explanations of HTML with interactive examples
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.w3schools.com/css/default.asp">W3Schools CSS Tutorials</a>
+                <span class = "mdl-list__item-text-body">
+                  Straightforward code explanations of CSS with interactive examples
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Python</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.w3schools.com/python/default.asp">W3Schools Python Tutorials</a>
+                <span class = "mdl-list__item-text-body">
+                  Straightforward code explanations of Python with interactive examples
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "http://homer.stuy.edu/~pbrooks/PythonChecker/PythonChecker.py">
+                  Mr. Brook's Python Checker
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Useful for Intro II final project: Check Python program designed to produce HTML
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "http://pythontutor.com">
+                  Python Code Visualizer
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Write code in your web browser, see it visualized step by step, and get live help from volunteers
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://docs.python.org/3.8/library/index.html">
+                  Python 3.8 Standard Library
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Describes semantics of non-essential built-in object types and of built-in functions and modules
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://docs.python.org/3.8/reference/index.html#reference-index">
+                  Python 3.8 Language Reference
+                </a>
+                <span class = "mdl-list__item-text-body">
+                  Describes syntax and core semantics
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Java</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.w3schools.com/java/default.asp">W3Schools Java Tutorials</a>
+                <span class = "mdl-list__item-text-body">
+                  Straightforward code explanations of Java with interactive examples
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://cscircles.cemc.uwaterloo.ca/java_visualize/">Java Code Visualizer</a>
+                <span class = "mdl-list__item-text-body">
+                  Write code in your web browser and see it visualized step by step
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Senior Electives</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://processing.org/reference/">Processing Reference</a>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://cdecl.org">C-English Translator</a>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://jsfiddle.net">JS Fiddle</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__title mdl-card--border">
+          <div class = "mdl-card__title-text"><h2>Miscellaneous</h2></div>
+        </div>
+        <div class = "mdl-card__supporting-text">
+          <ul class = "mdl-list">
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.gnu.org/software/emacs/tour/g">Guided Tour of Emacs</a>
+                <span class = "mdl-list__item-text-body">
+                  Emacs is a flexible text editor with a steep learning curve of keyboard commands
+                </span>
+              </span>
+            </li>
+            <li class = "mdl-list__item mdl-list__item--three-line">
+              <span class = "mdl-list__item-primary-content">
+                <a target = "_blank" href = "https://www.youtube.com/watch?v=adxmlHDim6c">FileZilla YouTube Tutorial</a>
+                <span class = "mdl-list__item-text-body">
+                  FileZilla is used to transfer files between the school computers and your home computer
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class = "mdl-cell mdl-cell--6-col">
+      <div class = "mdl-card mdl-shadow--2dp">
+        <div class = "mdl-card__supporting-text">
+              <span class = "mdl-list__item-text-body"><h3>
+                (\ (\<br>
+                ( . .)<br>
+                C(")(")</h3>
+              </span>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Netlogo</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/">
-                Netlogo User Manual
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Includes:
-                <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/tutorial1.html">3-part tutorial</a>,
-                <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/interface.html">interface guide</a>, and
-                <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/programming.html">programming guide</a>
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://ccl.northwestern.edu/netlogo/docs/dictionary.html">
-                Netlogo Dictionary
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Dictionary of Netlogo primitives
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>HTML & CSS</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.w3schools.com/html/default.asp">W3Schools HTML Tutorials</a>
-              <span class = "mdl-list__item-text-body">
-                Straightforward code explanations of HTML with interactive examples
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.w3schools.com/css/default.asp">W3Schools CSS Tutorials</a>
-              <span class = "mdl-list__item-text-body">
-                Straightforward code explanations of CSS with interactive examples
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Python</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.w3schools.com/python/default.asp">W3Schools Python Tutorials</a>
-              <span class = "mdl-list__item-text-body">
-                Straightforward code explanations of Python with interactive examples
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "http://homer.stuy.edu/~pbrooks/PythonChecker/PythonChecker.py">
-                Mr. Brook's Python Checker
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Useful for Intro II final project: Check Python program designed to produce HTML
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "http://pythontutor.com">
-                Python Code Visualizer
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Write code in your web browser, see it visualized step by step, and get live help from volunteers
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://docs.python.org/3.8/library/index.html">
-                Python 3.8 Standard Library
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Describes semantics of non-essential built-in object types and of built-in functions and modules
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://docs.python.org/3.8/reference/index.html#reference-index">
-                Python 3.8 Language Reference
-              </a>
-              <span class = "mdl-list__item-text-body">
-                Describes syntax and core semantics
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Java</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.w3schools.com/java/default.asp">W3Schools Java Tutorials</a>
-              <span class = "mdl-list__item-text-body">
-                Straightforward code explanations of Java with interactive examples
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://cscircles.cemc.uwaterloo.ca/java_visualize/">Java Code Visualizer</a>
-              <span class = "mdl-list__item-text-body">
-                Write code in your web browser and see it visualized step by step
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Senior Electives</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://processing.org/reference/">Processing Reference</a>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://cdecl.org">C-English Translator</a>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://jsfiddle.net">JS Fiddle</a>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__title mdl-card--border">
-        <div class = "mdl-card__title-text"><h2>Miscellaneous</h2></div>
-      </div>
-      <div class = "mdl-card__supporting-text">
-        <ul class = "mdl-list">
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.gnu.org/software/emacs/tour/g">Guided Tour of Emacs</a>
-              <span class = "mdl-list__item-text-body">
-                Emacs is a flexible text editor with a steep learning curve of keyboard commands
-              </span>
-            </span>
-          </li>
-          <li class = "mdl-list__item mdl-list__item--three-line">
-            <span class = "mdl-list__item-primary-content">
-              <a target = "_blank" href = "https://www.youtube.com/watch?v=adxmlHDim6c">FileZilla YouTube Tutorial</a>
-              <span class = "mdl-list__item-text-body">
-                FileZilla is used to transfer files between the school computers and your home computer
-              </span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class = "mdl-cell mdl-cell--6-col">
-    <div class = "mdl-card mdl-shadow--2dp">
-      <div class = "mdl-card__supporting-text">
-            <span class = "mdl-list__item-text-body"><h3>
-              (\ (\<br>
-              ( . .)<br>
-              C(")(")</h3>
-            </span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-
+</div>
 </body>
 </html>
