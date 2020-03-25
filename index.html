@@ -1,97 +1,135 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <title>Home</title>
-  </head>
-  <body>
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">csDojo</span>
-          <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="index.html">Home</a>
-            <a class="mdl-navigation__link" href="about.html">About</a>
-            <a class="mdl-navigation__link" href="resources.html">Resources</a>
-          </nav>
-        </div>
-      </header>
-    
-      <style>
-        .demo-list-icon {
-            width: 100%;
-        }
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-        .demo-list-three {
-            width: 100%;
-        }
+  <title>CSDojo</title>
 
-        .section {
-            padding-left: 1%;
-        }
-    </style>
+  <style>
+    .no-margin {
+      margin: 0;
+    }
 
-    <div class= "section" style="background-color: #E9E9E9;">
-        <h4>Room Number: 307</h4>
-        <h4>Time Open: Mon - Thurs, 3:45 PM to 5:00 PM</h4>
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <!-- Navigation Bar -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">csDojo</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl">
+    <span class="mdl-layout-title">csDojo</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="about.html">About</a>
+      <a class="mdl-navigation__link" href="resources.html">Resources</a>
+    </nav>
+  </div>
+
+  <!-- Unique main content of website -->
+  <main class="mdl-layout__content">
+    <!-- Welcome -->
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--8-col-tablet">
+        <h2 class="mdl-typography--text-center">Welcome to the Dojo!</h2>
+        <h5 class="mdl-typography--text-center mdl-typography--font-light no-margin">Room 307</h5>
+        <h5 class="mdl-typography--text-center mdl-typography--font-light no-margin">Monday-Thursday -- After 10th to 5:00PM</h5>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col center mdl-cell--4-col-phone mdl-cell--8-col-tablet">
+        <img src="static/logo.jpeg"/>
+      </div>
     </div>
 
-
-    <div class= "section" style="background-color: white;">
-        <h5>Announcements</h5>
-        <ul class="demo-list-three mdl-list">
-            <li class="mdl-list__item mdl-list__item--three-line">
-                <span class="mdl-list__item-primary-content">
-                    <span>Announcement #1</span>
-                    <span class="mdl-list__item-text-body">
-                        Description of Announcement #1
-                    </span>
-                </span>
-            </li>
-            <li class="mdl-list__item mdl-list__item--three-line">
-                <span class="mdl-list__item-primary-content">
-                    <span>Announcement #2</span>
-                    <span class="mdl-list__item-text-body">
-                        Description of Announcement #2
-                    </span>
-                </span>
-            </li>
-        </ul>
+    <!-- Announcements -->
+    <div>
+      <h3 class="mdl-typography--text-center">Announcements</h3>
+      <ul class="mdl-list mdl-grid center">
+        <!-- Start Announcement -->
+        <li class="mdl-list__item mdl-list__item--two-line">
+            <span class="mdl-list__item-primary-content">
+              <span>Online Dojo</span>
+              <span class="mdl-list__item-sub-title">Dojo will be on slack. Check your emails for the invite. akmdaksmdakmsdkamsdkamsdkamsd</span>
+            </span>
+        </li>
+        <!-- End Announcement -->
+      </ul>
     </div>
 
+    <!-- Who is in -->
+    <div>
+      <h3 class="mdl-typography--text-center">Announcements</h3>
+      <ul class="mdl-list mdl-grid">
+        <!--Group-->
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <div class="mdl-layout-spacer"></div>
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Sensei #1
+            </span>
+        </li>
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Sensei #2
+            </span>
+        </li>
+        <!--Group End-->
 
-    <div class= "section" style="background-color: #E9E9E9;">
-        <br>
-        <h5>Who is in Today?</h5>
-        <ul class="demo-list-icon mdl-list">
-            <li class="mdl-list__item">
-                <span class="mdl-list__item-primary-content">
-                    <i class="material-icons mdl-list__item-avatar">person</i>
-                    Sensei #1
-                </span>
-            </li>
-            <li class="mdl-list__item">
-                <span class="mdl-list__item-primary-content">
-                    <i class="material-icons mdl-list__item-avatar">person</i>
-                    Sensei #2
-                </span>
-            </li>
-            <li class="mdl-list__item mdl-list__item--two-line">
-                <span class="mdl-list__item-primary-content">
-                    <i class="material-icons mdl-list__item-icon">person</i>
-                    <span>Senpai #1</span>
-            </li>
-            <li class="mdl-list__item mdl-list__item--two-line">
-                <span class="mdl-list__item-primary-content">
-                    <i class="material-icons mdl-list__item-icon">person</i>
-                    <span>Senpai #2</span>
-            </li>
-        </ul>
+        <!--Group-->
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <div class="mdl-layout-spacer"></div>
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Senpai #0
+            </span>
+        </li>
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Senpai #1
+            </span>
+        </li>
+        <!--Group End-->
+
+        <!--Group-->
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <div class="mdl-layout-spacer"></div>
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Senpai #2
+            </span>
+        </li>
+        <li class="mdl-list__item mdl-cell mdl-cell--6-col-desktop">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              Senpai #3
+            </span>
+        </li>
+        <!--Group End-->
+
+      </ul>
     </div>
-    
-  </body>
+  </main>
+</div>
+</body>
 </html>
