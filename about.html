@@ -9,218 +9,194 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <title>About</title>
   <style>
-    .mdl-card {
+    .full-width {
       width: auto;
     }
   </style>
 </head>
 <body>
-<header class="mdl-layout__header">
-  <div class="mdl-layout__header-row">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <!-- Navigation Bar -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">csDojo</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl">
     <span class="mdl-layout-title">csDojo</span>
-    <div class="mdl-layout-spacer"></div>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="index.html">Home</a>
       <a class="mdl-navigation__link" href="about.html">About</a>
       <a class="mdl-navigation__link" href="resources.html">Resources</a>
     </nav>
   </div>
-</header>
-<div class="mdl-card">
-  <div class='mdl-card__supporting-text mdl-card--border'>
-    <h1 style="color: black">About</h1>
-    <h4>Room: 307</h4>
-    <h4>Time: Mondays - Thursdays, immediately after 10th period - 5:00pm</h4>
-  </div>
-</div>
-<div class="mdl-card">
-  <div class="mdl-card__title ">
-    <h3 class="mdl-card__title-text">What is the dojo?</h3>
-  </div>
-  <div class='mdl-card--border mdl-card__supporting-text'>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-</div>
-<div class="mdl-card">
-  <div class="mdl-card__title">
-    <h3 class="mdl-card__title-text">Rules</h3>
-  </div>
-  <div class='mdl-card__supporting-text mdl-card--border'>
-    <ol start=0>
-      <li>All lists must be 0-indexed.</li>
-      <li>No food or drink in the dojo (H20 okay).</li>
-      <li>Be respectful to your peers.</li>
-      <li>Clean up after yourself.</li>
-      <li>Don't make excessively loud noises.</li>
-      <li>Avoid using illegal internet (Facebook/Messenger).</li>
-      <li>Keep the aisles clear of backpacks.</li>
-      <li>Lock your workstation when not in use (CTRL + ALT + L).</li>
-    </ol>
-  </div>
-</div>
-<div class="mdl-card">
-  <div class="mdl-card__title">
-    <h3 class="mdl-card__title-text">Sensai and Senpai</h3>
-  </div>
-  <img src="senpai.png"/>
-  <div class='mdl-card__supporting-text mdl-card--border'>
-    <p>From left to right: ...</p>
-    <h4>Sensei: Brian Moses, Emma Choi, Greg Zborovsky, and William Cao</h4>
-    <h4>Senpai</h4>
 
-    <!-- SENPAI IMAGE START -->
-<div class="mdl-grid">
+  <!-- Unique main content of website -->
+  <main class="mdl-layout__content">
+    <div class='mdl-card__supporting-text mdl-card--border full-width'>
+      <h1 class="mdl-typography--text-center" style="color: black">About The Dojo</h1>
+    </div>
+    <div class='mdl-card__supporting-text mdl-card--border'>
+      <div class="mdl-card">
+        <div class="mdl-card__title">
+          <h3 class="mdl-card__title-text">Rules</h3>
+        </div>
+        <div class='mdl-card__supporting-text mdl-card--border'>
+          <ol start=0>
+            <li>All lists must be 0-indexed.</li>
+            <li>No food or drink in the dojo (H20 okay).</li>
+            <li>Be respectful to your peers.</li>
+            <li>Clean up after yourself.</li>
+            <li>Don't make excessively loud noises.</li>
+            <li>Avoid using illegal internet (Facebook/Messenger).</li>
+            <li>Keep the aisles clear of backpacks.</li>
+            <li>Lock your workstation when not in use (CTRL + ALT + L).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="mdl-card full-width">
+        <div class="mdl-card__title">
+          <h3 class="mdl-card__title-text">Sensei and Senpai</h3>
+        </div>
+        <!-- SENPAI IMAGE START -->
+        <div class="mdl-grid">
 
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Abir, Taheer - Abir Taheer.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Abir Taheer</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Amanda Zheng.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Amanda Zheng</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Amelia, Chin - Amelia Chin.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Amelia Chin</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Benjamin, Gallai - Benjamin Gallai.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Benjamin Gallai</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/CHANGED_NAME - Grace Cantarella.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Grace Cantarella</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Christine, Yan - Christine Yan.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Christine Yan</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Emily, Zhang - Emily Zhang.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Emily Zhang</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Erin, Lee - Erin Lee.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Erin Lee</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ethan, Shenker - Ethan Shenker.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Ethan Shenker</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Hilary, Zen - Hilary Zen.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Hilary Zen</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ian, Williams - Ian Williams.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Ian Williams</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ishita, Gupta - Ishita Gupta.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Ishita Gupta</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Jonathan, Lee - Jonathan Lee.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Jonathan Lee</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kazi, Jamal - Kazi Jamal.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Kazi Jamal</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kelly, Zhou - Kelly Zhou.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Kelly Zhou</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kiran, Vuksanaj - Kiran Vuksanaj.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Kiran Vuksanaj</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Madelyn, Mao - Madelyn Mao.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Madelyn Mao</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Michael, Robertson - Michael Robertson.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Michael Robertson</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Michael, Zhang - Michael Zhang.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Michael Zhang</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Minuk, Kim - Minuk Kim.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Minuk Kim</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Renee, Mui - Renee Mui.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Renee Mui</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ruoshui, Mao - Ruoshui Mao.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Ruoshui Mao</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Stella, Oh - Stella Oh.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Stella Oh</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Vicky, Yan - Vicky Yan.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Vicky Yan</div>
-        </div>
-        
-        <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
-          <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Victoria, Gao - Victoria Gao.jpeg') center / cover;"></div>
-          <div class="mdl-card__actions mdl-card--border">Victoria Gao</div>
-        </div>
-        
-</div>
-<!-- SENPAI IMAGE END -->
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Abir, Taheer - Abir Taheer.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Abir Taheer</div>
+          </div>
 
-  </div>
-</div>
-<div class="mdl-card">
-  <div class="mdl-card__title">
-    <h3 class="mdl-card__title-text">Contact Us</h3>
-  </div>
-  <div class='mdl-card__supporting-text mdl-card--border'>
-    <p>Brian Moses: <a href='mailto:bmoses00@stuy.edu'>bmoses00@stuy.edu</a></p>
-    <p>Emma Choi: <a href='mailto:ychoi@stuy.edu'>ychoi@stuy.edu</a></p>
-    <p>Greg Zborovsky: <a href='mailto:gzborovsky00@stuy.edu'>gzborovsky00@stuy.edu</a></p>
-    <p>William Cao: <a href='mailto:wcao00@stuy.edu'>wcao00@stuy.edu</a></p>
-  </div>
-</div>
-<div class="mdl-card">
-  <div class="mdl-card__title">
-    <h3 class="mdl-card__title-text">Website courtesy of:</h3>
-  </div>
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Amanda Zheng.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Amanda Zheng</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Amelia, Chin - Amelia Chin.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Amelia Chin</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Benjamin, Gallai - Benjamin Gallai.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Benjamin Gallai</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/CHANGED_NAME - Grace Cantarella.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Grace Cantarella</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Christine, Yan - Christine Yan.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Christine Yan</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Emily, Zhang - Emily Zhang.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Emily Zhang</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Erin, Lee - Erin Lee.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Erin Lee</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ethan, Shenker - Ethan Shenker.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Ethan Shenker</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Hilary, Zen - Hilary Zen.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Hilary Zen</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ian, Williams - Ian Williams.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Ian Williams</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ishita, Gupta - Ishita Gupta.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Ishita Gupta</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Jonathan, Lee - Jonathan Lee.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Jonathan Lee</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kazi, Jamal - Kazi Jamal.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Kazi Jamal</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kelly, Zhou - Kelly Zhou.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Kelly Zhou</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Kiran, Vuksanaj - Kiran Vuksanaj.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Kiran Vuksanaj</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Madelyn, Mao - Madelyn Mao.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Madelyn Mao</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Michael, Robertson - Michael Robertson.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Michael Robertson</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Michael, Zhang - Michael Zhang.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Michael Zhang</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Minuk, Kim - Minuk Kim.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Minuk Kim</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Renee, Mui - Renee Mui.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Renee Mui</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Ruoshui, Mao - Ruoshui Mao.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Ruoshui Mao</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Stella, Oh - Stella Oh.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Stella Oh</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Vicky, Yan - Vicky Yan.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Vicky Yan</div>
+          </div>
+
+          <div class="mdl-card mdl-shadow--2dp mdl-cell--3-col" style="width: 256px; height: 256px; margin: 3px">
+            <div class="mdl-card__title mdl-card--expand" style="background: url('./static/photos/Victoria, Gao - Victoria Gao.jpeg') center / cover;"></div>
+            <div class="mdl-card__actions mdl-card--border">Victoria Gao</div>
+          </div>
+
+        </div>
+        <!-- SENPAI IMAGE END -->
+      </div>
+    </div>
+  </main>
 </div>
 </body>
 </html>
